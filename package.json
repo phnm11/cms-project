@@ -1,0 +1,30 @@
+{
+  "name": "cms",
+  "version": "1.0.0",
+  "description": "A CMS in Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "Namm",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "method-override": "^3.0.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.4.1",
+    "mongoose-slug-updater": "^3.3.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  }
+}
