@@ -1,5 +1,5 @@
-module.exports = {
-    // mongoDbUrl: 'mongodb://127.0.0.1:27017/cms',
-    mongoDbUrl: 'mongodb+srv://phnm11:databasePass@cms.7ed2cpw.mongodb.net/?retryWrites=true&w=majority&appName=cms',
-
+if (process.env.NODE_ENV === 'production') {
+    module.exports = require('./prod-database')
+} else {
+    module.exports = require('./dev-database')
 }
